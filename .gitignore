@@ -20,7 +20,35 @@
 **/.idea/**/*.iml
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
+
+#some other stuff
+.idea/
+**/.idea/
 **/.idea/*
+**/.idea/**/*
+# Ignore build output
+bin/
+obj/
+**/bin/
+**/obj/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+# Build results
+bin/
+obj/
+# VS Code
+.vscode/
+# Rider/JetBrains
+.idea/
+# Dotnet artifacts
+*.dll
+*.exe
+*.pdb
+
+
 
 *.suo
 *.user

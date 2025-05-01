@@ -1,0 +1,5 @@
+DROP TABLE Country_Trip
+DROP TABLE Country
+DROP TABLE Client_Trip
+DROP TABLE Trip
+DROP TABLE Client
