@@ -8,7 +8,7 @@ namespace TravelSqlClient.Controllers;
 
 [ApiController]
 [Route("trips")]
-public class TripControllers(IDbService dbService) : ControllerBase
+public class TripController(IDbService dbService) : ControllerBase
 {
 
     [HttpGet]

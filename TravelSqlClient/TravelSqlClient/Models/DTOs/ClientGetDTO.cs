@@ -1,8 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿namespace TravelSqlClient.Models.DTOs;
 
-namespace TravelSqlClient.Models;
-
-public class Client
+public class ClientGetDTO
 {
     public int IdCLient { get; set; }
     public string FirstName { get; set; }
@@ -10,4 +8,5 @@ public class Client
     public string Email { get; set; }
     public string Telephone { get; set; }
     public string Pesel { get; set; }
+    
 }
